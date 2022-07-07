@@ -1,0 +1,84 @@
+/*
+Theme Name: OBusiness
+Theme URI: https://www.osmantandogan.com/is-dunyanızı-internete-tasıyın
+Author: Osman Şükrü Tandoğan / Samet Emin Kıvanç
+Author URI: https://www.osmantandogan.com
+Description: İşinizi Günümüzün Şartlarına Uygun Bir Şekilde İlerletmek İçin Girdiğiniz İnternet Dünyasında Bizimle Güzel Bir Başlangıç Yaptınız
+Version: 1.0
+Text Domain: obtheme
+*/
+*/
+
+body {background-color: gray;}
+header {background-color: rgb(182, 241, 243);width: 100%;height: 140px;}
+footer {background-color: black; color: honeydew;}
+.navigation {padding-left: 0;list-style: none;padding-top: 60px;}
+.navigation li {display: inline;margin-right: 20px;}
+#sidebar .widget { 
+	margin-bottom: 45px; 
+}
+#sidebar h3.widget-title {
+	display: block;
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	text-indent: 14px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	height: 32px;
+	line-height: 36px;
+}
+#sidebar h3.widget-title:before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-left: 2px solid #4498e7;
+	border-top: 2px solid #4498e7;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#sidebar .rev_slider_wrapper {
+	padding: 3px;
+	border: 1px solid #ddd;
+}
+
+/* Left Sidebar Layout */
+.layout-sidebar-left #main {
+	float: right;
+	width: 73%;
+	display: block;
+}
+.layout-sidebar-left #main-core {
+	margin-left: 30px;
+}
+.layout-sidebar-left #sidebar {
+	display: block;
+	float: right;
+	width: 27%;
+}
+.layout-sidebar-left #sidebar-core {
+	margin-right: 20px;
+}
+
+/* Right Sidebar Layout */
+.layout-sidebar-right #main {
+	float: left;
+	width: 73%;
+	display: block;
+}
+.layout-sidebar-right #main-core {
+	margin-right: 30px;
+}
+.layout-sidebar-right #sidebar {
+	display: block;
+	float: left;
+	width: 27%;
+}
+.layout-sidebar-right #sidebar-core {
+	margin-left: 20px;
+}
